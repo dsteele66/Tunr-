@@ -1,0 +1,31 @@
+python <===> node (duh)
+
+pip/pipenv <==> npm / yarn 
+
+    general name: package manager 
+
+    similarities: 
+    -they both do out to the internet to install pkgs by name 
+    -where do they go to lookup the pkg? 
+
+    difference: 
+        -node modules isntalls in project directory ; 
+        -python install to centralized site packages 
+
+    psycopg2 <==> mongoose 
+
+    allow our server untime (python/js)
+    to communicate with our DB (postgre vs mongo)
+
+
+    django - admin <==> npx create react app 
+
+    sets up the boilerplate for us to modify 
+
+    python uses: 
+    site-packages / 
+        this is code used in python programs 
+
+        scripts/
+
+            can be used on the comman line 
