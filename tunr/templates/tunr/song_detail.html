@@ -1,0 +1,10 @@
+{% extends 'tunr/base.html' %} {% block content %}
+<h2>{{song.title}} <a href="">(Edit)</a></h2>
+
+<h3>By: {{song.artist.name}}</h3>
+
+Album: {{ song.album}}
+
+<img src="{{ song.preview_url }}" alt="preview-photo" />
+
+{% endblock %}
